@@ -50,7 +50,7 @@ img {
 /* Header */
 .header {
   height: 300px;
-  background-color: #eb4a5a63;
+  background-color: #601e8d63;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,9 +60,16 @@ img {
   width: 500px;
   height: 500px;
 }
+.logo:hover{
+
+  content: url('./assets/img/julianlogo.png');
+
+}
+
 .bg-card {
   transition: all 0.25s;
 }
+
 .row .bg-card:hover {
   transform: translateY(-10px);
 }
